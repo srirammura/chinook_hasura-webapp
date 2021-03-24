@@ -30,7 +30,7 @@ instead just use the requirements.txt file that I have created to install all de
 pip install requirements.txt
 ```
 
-#### Important files to check , to understand the codebase :
+### Important files to check , to understand the codebase :
 
 Backend
 
@@ -45,7 +45,7 @@ Frontend
 
 Note : base.html is actually kept in /var/www/html and is served through apache2 server running in cloud. For convenience I have copied the base.html in templates folder
 
-#### Explanation about the important files
+### Explanation about the important files
 
 1) models.py - Model contains the essential fields and behaviors of the data you’re storing. Each field of the model has a specific definition in the sense of the data it stores or the type of field it is. It can be a CharField or IntegerField, a ManytoManyField or a OneToManyField or just be a ForeignKey. We can also define the minimal validation requirements, used in Django’s admin and in automatically-generated forms. These fields are important as they will go on to define our database.
 
@@ -53,8 +53,8 @@ Note : base.html is actually kept in /var/www/html and is served through apache2
 
 3) views.py -  In this project, views.py not only contain viewsets but also contains table views which are created with the help of **django_tables2**  
 
-#### Screenshots of webapp
+### Screenshots of webapp
 
 ![alt_text](https://github.com/srirammura/chinook_hasura-webapp/blob/main/1.png)
 ![alt_text](https://github.com/srirammura/chinook_hasura-webapp/blob/main/2.PNG)
-![alt_text{(https://github.com/srirammura/chinook_hasura-webapp/blob/main/3.PNG)
+![alt_text](https://github.com/srirammura/chinook_hasura-webapp/blob/main/3.PNG)
