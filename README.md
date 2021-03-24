@@ -16,21 +16,17 @@ b. has a page with a form to create a new record.
 
 #### Framework and dependencies used:
 
-1) Django Rest Framework - download these dependecies to work with DRF
+Django Rest Framework - download these dependecies to work with DRF
  ```
+pip install django
 pip install djangorestframework
 pip install markdown       
 pip install django-filter 
 ```
-#### Calculations:
-After indivisually calculating matching of every field, I'm then merging them according to the provided weightage:
-```
-DISTANCE_WEIGHT = 0.3
-BUDGET_WEIGHT = 0.3
-BATHROOM_WEIGHT = 0.2
-BEDROOM_WEIGHT = 0.2
+instead just use the requirements.txt file that I have created to install all dependencies
 
-Result(in %age)  = distance_match * DISTANCE_WEIGHT
-        + budget_match * BUDGET_WEIGHT
-        + bedroom_match * BEDROOM_WEIGHT
-        + bathroom_match * BATHROOM_WEIGHT
+```
+pip install requirements.txt
+```
+
+
