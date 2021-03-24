@@ -31,7 +31,7 @@ pip install requirements.txt
 
 Important files to check , to understand the codebase :
 
-![alt text](https://github.com/srirammura/chinook_hasura-webapp/blob/main/app/models.py)
+[a link](https://github.com/srirammura/chinook_hasura-webapp/blob/main/app/models.py)
 
 
 
