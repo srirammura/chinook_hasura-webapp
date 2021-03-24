@@ -52,3 +52,9 @@ Note : base.html is actually kept in /var/www/html and is served through apache2
 2) serializers.py - Serializers are not part of Django but instead of Django-REST (which works in conjunction with the main Django framework). The main function of serializers is to render the available information into formats that can be easily accessible and utilised by the frontend.
 
 3) views.py -  In this project, views.py not only contain viewsets but also contains table views which are created with the help of **django_tables2**  
+
+#### Screenshots of webapp
+
+![alt_text](https://github.com/srirammura/chinook_hasura-webapp/blob/main/1.png)
+![alt_text](https://github.com/srirammura/chinook_hasura-webapp/blob/main/2.PNG)
+![alt_text{(https://github.com/srirammura/chinook_hasura-webapp/blob/main/3.PNG)
