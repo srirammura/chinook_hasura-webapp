@@ -1,4 +1,4 @@
-# Django Webapp to Read and Write from Chinook Database
+# Hasura Assignment
 
 
 #### Problem Statement:
