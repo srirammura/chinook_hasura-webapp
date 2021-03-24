@@ -1,2 +1,2 @@
-# chinook_hasura-webapp
+Django Webapp to Read and Write from Chinook Database
  
