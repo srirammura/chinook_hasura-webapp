@@ -3,29 +3,16 @@
 
 #### Problem Statement:
 
-Write the most efficient algorithm that helps s determine a list of matches with match percentages for each match between a huge set of properties (sale and rental) and buyer/renter search criteria as and when a new property or a new search criterion is added to our network by an agent. This algorithm should match these properties and search criteria as they come in based on 4 parameters such that each match has a  match percentage.
-The 4 parameters are : 
- - Distance - radius (high weightage)
- - Budget (high weightage)
- - Number of bedrooms (low weightage)
- - Number of bathrooms (Low weightage)
+Build a web dashboard to look at data coming in from a database and a form to insert data back into the database. 
+1. Setup a relational database: 
+- a. Use whatever database you’re most comfortable with  
+2. Load a sample dataset into your database 
+- We recommend the chinook dataset 
+3. Write APIs to retrieve data from the database and insert back into db. Use any programming language or framework that you’re familiar with. One endpoint for “read” and one endpoint for “write”. 
+4. Create a web app that pulls data from the API and 
+a. shows data in a tabular format 
+b. has a page with a form to create a new record. 
 
-
-#### Assumptions 
-
-- Since it is not mentioned that the valid budget +/- 25% has to be taken from min/max budget value, I assumed the average value to calculate the +/- 25% and the added both sides.
-- Assuming all the data will be provided
-- Created 1000 properties mock data in database to match with the requirements.
-  - assumed bedrooms & bathrooms between 1 to 6
-  - assumed price between $ 1k to 10k
-- Using Haversine Formula to calculate distance between two points in kilometers
-```
-def distance(lat1, lon1, lat2, lon2):
-    p = 0.017453292519943295
-    a = 0.5 - cos((lat2 - lat1) * p) / 2 + cos(lat1 * p) * \
-        cos(lat2 * p) * (1 - cos((lon2 - lon1) * p)) / 2
-    return 12742 * asin(sqrt(a)) # in kms
-```
    
 
 
