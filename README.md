@@ -14,24 +14,14 @@ b. has a page with a form to create a new record.
    
 
 
-#### Algorithm used:
+#### Framework and dependencies used:
 
-I used linear proportion conversion algorithm to generate results.
-Here's the formula for it:
+1) Django Rest Framework - download these dependecies to work with DRF
+ ```
+pip install djangorestframework
+pip install markdown       
+pip install django-filter 
 ```
-OldRange = (OldMax - OldMin)  
-NewRange = (NewMax - NewMin)  
-NewValue = (((OldValue - OldMin) * NewRange) / OldRange) + NewMin
-```
-
-Here's the steps for one data: 
-(example of price - budget matching):
-- given min & max budget and price of a property
-- calculate the average budget 
-- define boundaries for valid to 100% matching condition
-- using above expression to find the matching percentage
-- returning data
-
 #### Calculations:
 After indivisually calculating matching of every field, I'm then merging them according to the provided weightage:
 ```
