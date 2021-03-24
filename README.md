@@ -29,9 +29,19 @@ instead just use the requirements.txt file that I have created to install all de
 pip install requirements.txt
 ```
 
-Important files to check , to understand the codebase :
+#### Important files to check , to understand the codebase :
 
-[models.py](https://github.com/srirammura/chinook_hasura-webapp/blob/main/app/models.py)
+Backend
 
+- [models.py](https://github.com/srirammura/chinook_hasura-webapp/blob/main/app/models.py)
+- [serializers.py](https://github.com/srirammura/chinook_hasura-webapp/blob/main/app/serializers.py)
+- [views.py] (https://github.com/srirammura/chinook_hasura-webapp/blob/main/app/views.py)
+
+Frontend
+
+-[index.html](https://github.com/srirammura/chinook_hasura-webapp/blob/main/app/templates/index.html)
+-[base.html](https://github.com/srirammura/chinook_hasura-webapp/blob/main/app/templates/base.html 
+
+Note : base.html is actually kept in /var/www/html and is served through apache2 server running in cloud. For convenience I have copied the base.html in templates folder
 
 
