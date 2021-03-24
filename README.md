@@ -53,7 +53,7 @@ Note : base.html is actually kept in /var/www/html and is served through apache2
 
 3) views.py -  In this project, views.py not only contain viewsets but also contains table views which are created with the help of **django_tables2**  
 
-**Check this youtube video for detailed explanation of codebase and deployment : https://youtu.be/wl2OuTaoshY**
+## Check this youtube video for detailed explanation of codebase and deployment : https://youtu.be/wl2OuTaoshY**
 
 ### Screenshots of webapp
 
