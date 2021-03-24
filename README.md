@@ -29,4 +29,8 @@ instead just use the requirements.txt file that I have created to install all de
 pip install requirements.txt
 ```
 
+Important files to check , to understand the codebase :
+
+
+
 
