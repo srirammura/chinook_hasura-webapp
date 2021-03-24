@@ -1,0 +1,17 @@
+{# tutorial/templates/tutorial/people.html #}
+{% load render_table from django_tables2 %}
+<!doctype html>
+<html>
+    <head>
+        <title>Hasura Assignment</title>
+        <style>
+        h1,h2 {text-align:center;}
+        </style>
+        <h2><b><u> Chinook dataset table </u></b></h1>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+   </head>
+    <body>
+        {% render_table table %}
+    </body>
+</html>

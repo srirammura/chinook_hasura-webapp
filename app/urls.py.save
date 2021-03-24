@@ -1,0 +1,24 @@
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from . import views
+
+router = DefaultRouter()
+router.register(r'Artists', views.ArtistsViewSet)
+router.register(r'ArtistTable',views.TableView.as_view(),basename='ArtistsTable')
+router.register(r'Employees', views.EmployeesViewSet)
+router.register(r'Customer', views.CustomersViewSet)
+router.register(r'Invoices', views.InvoicesViewSet)
+router.register(r'Media_types', views.MediaTypesViewSet)
+router.register(r'Genres', views.GenresViewSet)
+router.register(r'Tracks', views.TracksViewSet)
+router.register(r'Playlists', views.PlaylistsViewSet)
+router.register(r'Playlist_track', views.PlaylistTrackViewSet)
+router.register(r'Albums', views.AlbumsViewSet)
+router.register(r'Invoice_items', views.InvoiceItemsViewSet)
+
+urlpatterns = [
+   # path('artiststableview/', views.TableView.as_view(), name="artiststableview"),
+    path('', include(router.urls)),
+    
+
+]

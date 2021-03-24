@@ -1,0 +1,32 @@
+{# tutorial/templates/tutorial/people.html #}
+{% load render_table from django_tables2 %}
+<!doctype html>
+<html>
+    <head>
+        <title>Chinook Tables</title>
+        <style>
+        h2 {text-align:center;}
+        .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+        </style>
+        <form action="http://34.232.53.185/base.html" class="inline">
+        <button class="float-left submit-button" >Go to Main Menu</button>
+        </form>
+        <h2><b><u> Chinook dataset table </u></b></h1>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+   </head>
+    <body>
+        {% render_table table %}
+    </body>
+</html>
